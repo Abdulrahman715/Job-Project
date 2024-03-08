@@ -1,0 +1,43 @@
+# Collections
+
+## User Collection
+
+1. firstName 
+2. lastName
+3. username ( firstName + lastName) 
+4. email ⇒ ( unique )
+5. password
+6. recoveryEmail ⇒ (not unique)
+7. DOB (date of birth, must be date format 2023-12-4)
+8. mobileNumber ⇒ (unique)
+9. role ⇒ (User, Company_HR )
+10. status (online, offline)
+
+## Company Collection
+
+1. companyName ⇒ ( unique )
+2. description (Like what are the actual activities and services provided by the company ? )
+3. industry ( Like Mental Health care )
+4. address
+5. numberOfEmployees ( must be range such as 11-20 employee)
+6. companyEmail ⇒ ( unique )
+7. companyHR ( userId )
+
+## Job Collection
+
+1. jobTitle ( Like **NodeJs back-end developer** )
+2. jobLocation ( **onsite, remotely, hybrid** )
+3. workingTime ( **part-time , full-time** )
+4. seniorityLevel ( enum of **Junior, Mid-Level, Senior,Team-Lead, CTO** )
+5. jobDescription ( identify what is the job and what i will do i accepted )
+6. technicalSkills ( array of skills, like  **nodejs  , typescript** ,…)
+7. softSkills (array of Skills , like **time management , team worker,**.. )
+8. addedBy( what is the **compantHrId** who is added this job)
+
+## A**pplication** Collection
+
+1. jobId ( the Job Id )
+2. userId ( the applier Id )
+3. userTechSkills ( array of the applier technical Skills )
+4. userSoftSkills ( array of the applier soft Skills )
+5. userResume ( must be pdf , upload this pdf on cloudinary )

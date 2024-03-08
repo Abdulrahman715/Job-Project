@@ -1,0 +1,3 @@
+# Bonus Points
+
+1. add an endpoint that collects the applications for a specific company on a specific day and create an Excel sheet with this data

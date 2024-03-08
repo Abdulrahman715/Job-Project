@@ -1,0 +1,17 @@
+# Must Implemented
+
+1. Apply validation for each API requires data
+2. Apply authentication and authorization middleware
+3. Apply the error handling for each API 
+4. Apply the **env** file
+5. If there is any logic of code require to add a new field in the schema please go and add it.
+6. Write comments before each API describes the steps of the API
+7. Remove any console.log()  before sending your exam except the **app.listen** and **dbConnection** logs
+8. before send your exam you have to include the postman collections (**export your postman collection** )  and make sure that you save your changes on each request ( ctrl+s )
+
+**YOU SHOULD TEST YOUR APIS IN POSTMAN** 
+
+<aside>
+💡 **Have a nice and enjoyable time with your exam , we trust you can did it …**
+
+</aside>
